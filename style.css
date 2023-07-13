@@ -1,0 +1,31 @@
+.place{
+    position: relative;
+    width: 210px;
+    height: 210px;
+    background: yellow;
+    border: 4px solid pink;
+    margin: 20px 0 20px 15px;
+    box-sizing: content-box;
+}
+
+.object{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 4px solid palevioletred;
+    background: aquamarine;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.start-animation, .reverse-animation{
+    background-color: black;
+    color: white;
+    padding: 15px 36px;
+    border: 4px solid palevioletred;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
